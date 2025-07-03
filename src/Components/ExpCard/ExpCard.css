@@ -1,0 +1,59 @@
+/* ExperienceCard.css */
+
+.experience-card {
+  opacity: 0;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 12px;
+  /* background-color: #ffffff; */
+  width: 23%;
+  max-width: 500px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  text-align: center;
+  text-shadow:0px 0px 1px rgb(147, 120, 120);
+}
+
+.experience-card:hover {
+  transform: scale(1.08);
+}
+
+.role {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: #222;
+}
+
+.expImage{
+    width: 70%;
+    height: 40%;
+    border-radius: 10%;
+}
+
+.company {
+  font-size: 16px;
+  margin: 4px 0;
+  color: #444;
+}
+ 
+.duration {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #777;
+}
+
+.description {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #333;
+}
+a{
+  text-decoration:none;
+}

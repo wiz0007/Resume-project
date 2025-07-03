@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  height: 100vh;
+  gap: 3rem;
+  /* margin: auto 0; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: rgb(237, 237, 231);
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+  /* color: ; */
+}
+
