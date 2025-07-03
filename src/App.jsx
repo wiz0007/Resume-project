@@ -104,9 +104,9 @@ function App() {
         <Skill/>
       </div>
 
-      <div id="likeBtn">
+      {/* <div id="likeBtn">
         <LikeBtn />
-      </div>
+      </div> */}
 
       </div>
 

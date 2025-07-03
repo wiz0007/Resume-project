@@ -15,9 +15,9 @@ const ContactDropdown = () => {
 
       {isOpen && (
         <ul className="dropdown-menu">
-          <li><a href="mailto:anuragrawat000ar@gmail.com">📧 Email</a></li>
+          <li><a href="mailto:rawatanurag0987@gmail.com">📧 Email</a></li>
           <li><a href="tel:+916395991258">📞 Phone</a></li>
-          <li><a href="https://linkedin.com/in/anuragrawat" target="_blank" rel="noreferrer">🔗 LinkedIn</a></li>
+          <li><a href="https://in.linkedin.com/in/anurag-rawat-722118287" target="_blank" rel="noreferrer">🔗 LinkedIn</a></li>
         </ul>
       )}
     </div>

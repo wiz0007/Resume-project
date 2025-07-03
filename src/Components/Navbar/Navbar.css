@@ -34,3 +34,66 @@
 .res{
   font-weight: 100;
 }
+/* Hide hamburger on desktop */
+.hamburger {
+  display: none;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    z-index: 1001;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 24px;
+    background-color: #e7f0fd;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-links li {
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .nav-links.active {
+    display: block;
+  }
+
+  /* Optional: reduce padding of navbar itself */
+  .navbar {
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  /* Optional: stack items if needed */
+  .navbar .res {
+    flex: 1;
+  }
+
+  .contact{
+    position: relative;
+    right: 25%;
+  }
+}

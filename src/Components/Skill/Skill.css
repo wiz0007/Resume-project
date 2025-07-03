@@ -39,6 +39,7 @@
   transition: background-color 0.2s ease;
   cursor: default;
   user-select: none;
+  display: flex;
 }
 
 .skill-badge.soft {
@@ -53,3 +54,4 @@
 .skill-badge.soft:hover {
   background-color: #ecd6fa;
 }
+

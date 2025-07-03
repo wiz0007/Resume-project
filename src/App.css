@@ -106,3 +106,43 @@ body {
     transform: translateX(0);
   }
 }
+
+
+
+@media screen and (max-width: 768px){
+  .eduComp {
+    padding: 0.5rem;
+  }
+
+  .education {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  .expComp {
+    padding: 0.5rem;
+  }
+
+  .experience {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  .skillComp {
+    padding: 1rem;
+    width: 100%;
+    align-items: stretch;
+  }
+  #skillHeading{
+    width: 100%;
+  }
+
+}
+
+  
