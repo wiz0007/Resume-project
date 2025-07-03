@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className="navbar">
       <h1 className="res">Resume</h1>
 
-      <div className={`${isMobileMenuOpen ? "active" : ""}`}>
+      <div className={`nav-links ${isMobileMenuOpen ? "active" : ""}`}>
         <ul className="nav-links">
           <li onClick={() => scrollToSection("eduHeading")}>Education</li>
           <li onClick={() => scrollToSection("expHeading")}>Experience</li>
