@@ -1,7 +1,7 @@
 import "./App.css";
 import ProfileCard from "./Components/PflCard/ProfileCard";
 import anuImage1 from "./assets/ProfilePic.png";
-import anuImage2 from "./assets/anuImage2.png";
+import anuImage2 from "./assets/AnuImg.jpg";
 import shivalik from "./assets/Shivalik.png";
 import renaissance from "./assets/Renaissance.png";
 import ptu from "./assets/ptu.png";
